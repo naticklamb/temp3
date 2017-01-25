@@ -36,7 +36,7 @@
  * Certificate Request Subject
  */
 #define DN_O "ICANN"                   /*!< Organization  */
-#define DN_OU "IANA"                   /*!< Organization Unit */
+#define DN_OU "PTI"  // "IANA"                   /*!< Organization Unit */
 #define DN_EMAIL "dnssec@iana.org"     /*!< Email Address */
 #define OID_DNS "1.3.6.1.4.1.1000.53"  /*!< Enterprise specific DNS OID */
 
