@@ -1,0 +1,35 @@
+diff -r ./.git/COMMIT_EDITMSG ../../20170123/dnssec-keytools-dev/.git/COMMIT_EDITMSG
+1c1
+< First pass rssac 003 15 to 21 day change and minor fixes
+---
+> ksk roll changes
+diff -r ./.git/config ../../20170123/dnssec-keytools-dev/.git/config
+7c7
+< 	url = https://github.com/naticklamb/temp3.git
+---
+> 	url = git@github.com:iana-org/dnssec-keytools-dev.git
+11a12,13
+> [user]
+> 	name = icannlamb
+Binary files ./.git/index and ../../20170123/dnssec-keytools-dev/.git/index differ
+diff -r ./.git/logs/HEAD ../../20170123/dnssec-keytools-dev/.git/logs/HEAD
+1,4c1
+< 0000000000000000000000000000000000000000 9a7155e68f62c6efae9314e2b88a6c0d34aecd2e lamb <slamb@xtcn.com> 1485375815 -0800	commit (initial): first commit
+< 9a7155e68f62c6efae9314e2b88a6c0d34aecd2e 96d8c33f4f321279c87f359f084fabfd4ae25760 lamb <slamb@xtcn.com> 1485375848 -0800	commit: re-enter stuff for js to see
+< 96d8c33f4f321279c87f359f084fabfd4ae25760 6d7f2bd9c7fa6cb2a68c79230d20e631092b3938 lamb <slamb@xtcn.com> 1485375989 -0800	commit: combined changes from original including checking ancillary fields
+< 6d7f2bd9c7fa6cb2a68c79230d20e631092b3938 af228c85cab9e1a0854b7b23d2ab217061f1405f lamb <slamb@xtcn.com> 1485376353 -0800	commit: First pass rssac 003 15 to 21 day change and minor fixes
+---
+> 0000000000000000000000000000000000000000 49a0f8dce27397beb60cf4f0f7e8b83699f791d1 lamb <richard.lamb@icann.org> 1485289309 -0800	clone: from git@github.com:iana-org/dnssec-keytools-dev.git
+diff -r ./.git/logs/refs/heads/master ../../20170123/dnssec-keytools-dev/.git/logs/refs/heads/master
+1,4c1
+< 0000000000000000000000000000000000000000 9a7155e68f62c6efae9314e2b88a6c0d34aecd2e lamb <slamb@xtcn.com> 1485375815 -0800	commit (initial): first commit
+< 9a7155e68f62c6efae9314e2b88a6c0d34aecd2e 96d8c33f4f321279c87f359f084fabfd4ae25760 lamb <slamb@xtcn.com> 1485375848 -0800	commit: re-enter stuff for js to see
+< 96d8c33f4f321279c87f359f084fabfd4ae25760 6d7f2bd9c7fa6cb2a68c79230d20e631092b3938 lamb <slamb@xtcn.com> 1485375989 -0800	commit: combined changes from original including checking ancillary fields
+< 6d7f2bd9c7fa6cb2a68c79230d20e631092b3938 af228c85cab9e1a0854b7b23d2ab217061f1405f lamb <slamb@xtcn.com> 1485376353 -0800	commit: First pass rssac 003 15 to 21 day change and minor fixes
+---
+> 0000000000000000000000000000000000000000 49a0f8dce27397beb60cf4f0f7e8b83699f791d1 lamb <richard.lamb@icann.org> 1485289309 -0800	clone: from git@github.com:iana-org/dnssec-keytools-dev.git
+diff -r ./.git/refs/heads/master ../../20170123/dnssec-keytools-dev/.git/refs/heads/master
+1c1
+< af228c85cab9e1a0854b7b23d2ab217061f1405f
+---
+> 49a0f8dce27397beb60cf4f0f7e8b83699f791d1

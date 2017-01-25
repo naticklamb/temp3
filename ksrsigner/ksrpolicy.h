@@ -45,7 +45,7 @@
 
 #define T_PUBLISH_SAFETY       0   /*!< KSK Publish Safety (in days) */
 #define T_RETIRE_SAFETY        28  // Not mentioned in RSSAC003. /*!< KSK Retire Safety (in days) */
-#define T_MAX_SIG_VAL          26  // was 20 RSSAC003 changed below so shift up. /*!< Max sig validity (in days) */
+#define T_MAX_SIG_VAL          21  // was 20 RSSAC003 changed below so shift up. /*!< Max sig validity (in days) */
 #define T_MIN_SIG_VAL          21  // was 15 RSSAC003 upped to 21 /*!< Min sig validity (in days) */
 #define T_MAX_VALIDITY_OVERLAP 16  // was 10 RSSAC003 added 6. /*!< Max sig validity overlap (in days) */
 #define T_MIN_VALIDITY_OVERLAP 9  // was 5 RSSAC003 added 6. 11-2 for short months. /*!< Min sig validity overlap (in days) */
