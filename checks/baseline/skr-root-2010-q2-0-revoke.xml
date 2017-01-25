@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KSR id="14d45450-618c-4414-8e1e-9078ffb0ed51" domain="." serial="1">
+<Response>
+<ResponsePolicy>
+<KSK>
+<PublishSafety>PT0S</PublishSafety>
+<RetireSafety>P28D</RetireSafety>
+<MaxSignatureValidity>P20D</MaxSignatureValidity>
+<MinSignatureValidity>P15D</MinSignatureValidity>
+<MaxValidityOverlap>P10D</MaxValidityOverlap>
+<MinValidityOverlap>P5D</MinValidityOverlap>
+<SignatureAlgorithm algorithm="8">
+<RSA size="2048" exponent="3"/>
+</SignatureAlgorithm>
+</KSK>
+<ZSK>
+<PublishSafety>P10D</PublishSafety>
+<RetireSafety>P10D</RetireSafety>
+<MaxSignatureValidity>P20D</MaxSignatureValidity>
+<MinSignatureValidity>P15D</MinSignatureValidity>
+<MaxValidityOverlap>P5D</MaxValidityOverlap>
+<MinValidityOverlap>P5D</MinValidityOverlap>
+<SignatureAlgorithm algorithm="8">
+<RSA size="1024" exponent="3"/>
+</SignatureAlgorithm>
+</ZSK>
+</ResponsePolicy>
+<ResponseBundle id="b47dfa22-8b20-4a07-9b29-b737ccc2bb6b">
+<Inception>2010-04-01T00:00:00+00:00</Inception>
+<Expiration>2010-04-15T23:59:59+00:00</Expiration>
+<Key keyIdentifier="302c312a302806035504031321566572695369676e20444e5353656320526f6f742054455354205a534b20312d32" keyTag="23763">
+<TTL>172800</TTL>
+<Flags>256</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAZe8dP0ljyR/Jzmt/jTj3stT702l9T2eXUjnPo/NDOgmdbctepGaMMDRPL8IsZIghuSMbvUY3AjuSJnmGc0zdteeI1m+9P55fuG98hn+tzKtj1uT+UlW4s11JYuG+1+0e7kWYHikFrv3CsfPr8uBRIrThUMYtDeILkF6yTlkUGKD</PublicKey>
+</Key>
+<Key keyIdentifier="302c312a302806035504031321566572695369676e20444e5353656320526f6f742054455354205a534b20312d33" keyTag="55138">
+<TTL>172800</TTL>
+<Flags>256</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAcbW99jHMHfU9Q53Zur26M0i0EMgt0O8tKr9UwE6uH4Yyu6uYRMHFVU6f7xZNssh0TAlxVr0I4qxak5/ux17bnMs1yYh5W9EMivaHnmWOoEms778QOjRVnqocMtOQRbObstfa4YaDhtbSRZKpdSzT9DIX5wKCxoXUad98XDdxLNJ</PublicKey>
+</Key>
+<Key keyIdentifier="KSK1" keyTag="05145">
+<TTL>172800</TTL>
+<Flags>385</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAeDRkrdHVmYr02azOXBd71VkutdjhDWyro+9IsGoFSN61RAgCmwQkw3MZR1zQZziReIdruh7zsKFzzYNV5O5xeRjrTktYM56R4dWucrmctQJdbJirDfKdNB57Pg7ZZAv2Lx+YkouC0+4E+cscYAbS7/p4P2F9kVqbpXjswpjzKojIQPzC5JpkOem8vjhRAVyvFfJ9fX5lM7XUzKMhvRCU8Kk/T4/n9tSZh6xLvu1X2u9U3dd9QAb0tK+hDal35rZkAs930JQKcvuRxbWv41SD2RajpQsHxYvD/1Kt3tZBBA6+n7YK6ePdNar0Fo5Az6Y1Uew+Gofmu9TLx4lUk6x4pM=</PublicKey>
+</Key>
+<Signature keyIdentifier="KSK1">
+<TTL>172800</TTL>
+<TypeCovered>DNSKEY</TypeCovered>
+<Algorithm>8</Algorithm>
+<Labels>0</Labels>
+<OriginalTTL>172800</OriginalTTL>
+<SignatureExpiration>2010-04-15T23:59:59+00:00</SignatureExpiration>
+<SignatureInception>2010-04-01T00:00:00+00:00</SignatureInception>
+<KeyTag>05145</KeyTag>
+<SignersName>.</SignersName>
+<SignatureData>izgc7vA7OYanVlQmhmKPAgH4sZuBqpTblJwaLR8x+0VwNbYk8LB+5X8dgDPg7uAGwvzpwPNtyojIvm4ca3KCsnvWopEN2gD1qR9km4GaTiBKIVgmuH0FjjM+K1rvdvGsTCWZnZ8yuNKDj0mG1k14CGQBC39QFbbC0yoPfyYGPiDngPpJPckALnLHCJRf8vxIWMhz4bz1n7jxUTY+8O4A/oY7p6+/+yGqg7FHcavcUSIH7Kdl4Mln0ZJZ+nbmdYSEH2dRBcY66VxdbMXRLI8F0wIVMwKe+FupfAwFspJO/1LiHDEjtl+4BiSYgNhJP8/u/HFI6D/SIuiDUVO8U7zdaw==</SignatureData>
+</Signature>
+</ResponseBundle>
+<ResponseBundle id="3f232020-5bd0-410f-866d-eeecd04af522">
+<Inception>2010-04-11T00:00:00+00:00</Inception>
+<Expiration>2010-04-25T23:59:59+00:00</Expiration>
+<Key keyIdentifier="302c312a302806035504031321566572695369676e20444e5353656320526f6f742054455354205a534b20312d33" keyTag="55138">
+<TTL>172800</TTL>
+<Flags>256</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAcbW99jHMHfU9Q53Zur26M0i0EMgt0O8tKr9UwE6uH4Yyu6uYRMHFVU6f7xZNssh0TAlxVr0I4qxak5/ux17bnMs1yYh5W9EMivaHnmWOoEms778QOjRVnqocMtOQRbObstfa4YaDhtbSRZKpdSzT9DIX5wKCxoXUad98XDdxLNJ</PublicKey>
+</Key>
+<Key keyIdentifier="KSK1" keyTag="05145">
+<TTL>172800</TTL>
+<Flags>385</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAeDRkrdHVmYr02azOXBd71VkutdjhDWyro+9IsGoFSN61RAgCmwQkw3MZR1zQZziReIdruh7zsKFzzYNV5O5xeRjrTktYM56R4dWucrmctQJdbJirDfKdNB57Pg7ZZAv2Lx+YkouC0+4E+cscYAbS7/p4P2F9kVqbpXjswpjzKojIQPzC5JpkOem8vjhRAVyvFfJ9fX5lM7XUzKMhvRCU8Kk/T4/n9tSZh6xLvu1X2u9U3dd9QAb0tK+hDal35rZkAs930JQKcvuRxbWv41SD2RajpQsHxYvD/1Kt3tZBBA6+n7YK6ePdNar0Fo5Az6Y1Uew+Gofmu9TLx4lUk6x4pM=</PublicKey>
+</Key>
+<Signature keyIdentifier="KSK1">
+<TTL>172800</TTL>
+<TypeCovered>DNSKEY</TypeCovered>
+<Algorithm>8</Algorithm>
+<Labels>0</Labels>
+<OriginalTTL>172800</OriginalTTL>
+<SignatureExpiration>2010-04-25T23:59:59+00:00</SignatureExpiration>
+<SignatureInception>2010-04-11T00:00:00+00:00</SignatureInception>
+<KeyTag>05145</KeyTag>
+<SignersName>.</SignersName>
+<SignatureData>qMboNiJWCqEKPuB/0CC7DlNjdTODPhO71lIfur1hllsLUSoIzkVFljDwqWw8CKosk5cLjREceCmw+gue5wo4g9ta2SYFC/xeNtyGK/pgd+uhEPtAJZaR1oJ4QuZIpG7Cv1a+X5ByQ65ofojadXkVbg2ER1ekYTao52MJ4oAhHl6sWZD6uO26+kl0zSCSpkVB24dG/ilYRmzJgC4NIc2aNYsQSdfN18L5NKFqLx79JsQ1tTViz7R3OU6Ey9ORB7bd6PkvY4QqgyTIazPyUB+7I7Rf5czx2U/jCaleNCV02HJ8wFQ8sXljdiBvWimNwgQeieNAXSqrjqyBIhB08kKJNg==</SignatureData>
+</Signature>
+</ResponseBundle>
+<ResponseBundle id="833555b4-822a-40c6-bbeb-1d55b79f1321">
+<Inception>2010-04-21T00:00:00+00:00</Inception>
+<Expiration>2010-05-05T23:59:59+00:00</Expiration>
+<Key keyIdentifier="302c312a302806035504031321566572695369676e20444e5353656320526f6f742054455354205a534b20312d33" keyTag="55138">
+<TTL>172800</TTL>
+<Flags>256</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAcbW99jHMHfU9Q53Zur26M0i0EMgt0O8tKr9UwE6uH4Yyu6uYRMHFVU6f7xZNssh0TAlxVr0I4qxak5/ux17bnMs1yYh5W9EMivaHnmWOoEms778QOjRVnqocMtOQRbObstfa4YaDhtbSRZKpdSzT9DIX5wKCxoXUad98XDdxLNJ</PublicKey>
+</Key>
+<Key keyIdentifier="KSK1" keyTag="05145">
+<TTL>172800</TTL>
+<Flags>385</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAeDRkrdHVmYr02azOXBd71VkutdjhDWyro+9IsGoFSN61RAgCmwQkw3MZR1zQZziReIdruh7zsKFzzYNV5O5xeRjrTktYM56R4dWucrmctQJdbJirDfKdNB57Pg7ZZAv2Lx+YkouC0+4E+cscYAbS7/p4P2F9kVqbpXjswpjzKojIQPzC5JpkOem8vjhRAVyvFfJ9fX5lM7XUzKMhvRCU8Kk/T4/n9tSZh6xLvu1X2u9U3dd9QAb0tK+hDal35rZkAs930JQKcvuRxbWv41SD2RajpQsHxYvD/1Kt3tZBBA6+n7YK6ePdNar0Fo5Az6Y1Uew+Gofmu9TLx4lUk6x4pM=</PublicKey>
+</Key>
+<Signature keyIdentifier="KSK1">
+<TTL>172800</TTL>
+<TypeCovered>DNSKEY</TypeCovered>
+<Algorithm>8</Algorithm>
+<Labels>0</Labels>
+<OriginalTTL>172800</OriginalTTL>
+<SignatureExpiration>2010-05-05T23:59:59+00:00</SignatureExpiration>
+<SignatureInception>2010-04-21T00:00:00+00:00</SignatureInception>
+<KeyTag>05145</KeyTag>
+<SignersName>.</SignersName>
+<SignatureData>a0rGw50fXO4E+Vz+SXXHxpIfk3pQFNwaOTj5l252jSdU0PW0T54lLtOvQ4t0/w5Mb3VU5+viAeoPCbmhqF8/efTV8q+3Ns6fMSFSl41q5TZ0HekT5EgomWgQJ+zLpU1CmRiPRSzN+1V8JUF1bJR7ii7AxHw3PAHV4tid7dwZN87pFQFT+tpoZHk8rUxq8HPTgZqfTETkw8MdmBcM+NWZ0zLmvdIRaTfX/4PJkF5XXCJz5ErSQjllg0EI3oJxgAyQHRDMaVzJk/YgEFsR76qQ6BSg4CRFEnYMG1UbfmXrZSs6hj0txVf5klzzceA3Q0XOJ8MOWlW8pmiG6oZMnwBRJA==</SignatureData>
+</Signature>
+</ResponseBundle>
+<ResponseBundle id="f1563671-bec2-4a7c-8071-f4215a02af35">
+<Inception>2010-05-01T00:00:00+00:00</Inception>
+<Expiration>2010-05-15T23:59:59+00:00</Expiration>
+<Key keyIdentifier="302c312a302806035504031321566572695369676e20444e5353656320526f6f742054455354205a534b20312d33" keyTag="55138">
+<TTL>172800</TTL>
+<Flags>256</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAcbW99jHMHfU9Q53Zur26M0i0EMgt0O8tKr9UwE6uH4Yyu6uYRMHFVU6f7xZNssh0TAlxVr0I4qxak5/ux17bnMs1yYh5W9EMivaHnmWOoEms778QOjRVnqocMtOQRbObstfa4YaDhtbSRZKpdSzT9DIX5wKCxoXUad98XDdxLNJ</PublicKey>
+</Key>
+<Key keyIdentifier="KSK1" keyTag="05145">
+<TTL>172800</TTL>
+<Flags>385</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAeDRkrdHVmYr02azOXBd71VkutdjhDWyro+9IsGoFSN61RAgCmwQkw3MZR1zQZziReIdruh7zsKFzzYNV5O5xeRjrTktYM56R4dWucrmctQJdbJirDfKdNB57Pg7ZZAv2Lx+YkouC0+4E+cscYAbS7/p4P2F9kVqbpXjswpjzKojIQPzC5JpkOem8vjhRAVyvFfJ9fX5lM7XUzKMhvRCU8Kk/T4/n9tSZh6xLvu1X2u9U3dd9QAb0tK+hDal35rZkAs930JQKcvuRxbWv41SD2RajpQsHxYvD/1Kt3tZBBA6+n7YK6ePdNar0Fo5Az6Y1Uew+Gofmu9TLx4lUk6x4pM=</PublicKey>
+</Key>
+<Signature keyIdentifier="KSK1">
+<TTL>172800</TTL>
+<TypeCovered>DNSKEY</TypeCovered>
+<Algorithm>8</Algorithm>
+<Labels>0</Labels>
+<OriginalTTL>172800</OriginalTTL>
+<SignatureExpiration>2010-05-15T23:59:59+00:00</SignatureExpiration>
+<SignatureInception>2010-05-01T00:00:00+00:00</SignatureInception>
+<KeyTag>05145</KeyTag>
+<SignersName>.</SignersName>
+<SignatureData>X3wOe90MvYrfzJNn6U4nPlPVcq9rqAj9RJmZ5Nm0i2zNyh3AGM3LMKx4FKZps/yzOjsXkrBD/Jn6iIqJhOxL0hRaK3Cq5cU4kO7QVx9qiSyHO6AU/aJi8ZKFiw9ydvpWLbmQiAru7IMjlEV2dSTdoH0jaB9eW3FM6lWsTlNSfXfCmGbmzjX/6bcpwGAcGqJeOPx51k1zxerXswX1avnuGelx1fW087f0nyt8Eeh3hhJHRvhlFdBwj5HRQ8BlHVgA/qzY0JevTKRrOafpgXXWbZOt+QaTHfo3ac34Dt7Dllkvozs9I3HmOwxP0UW4CZcRKYZ38jfdja4wXY6e45RC/w==</SignatureData>
+</Signature>
+</ResponseBundle>
+<ResponseBundle id="d94d34ee-f78a-49cd-a2b1-97c9b02b9ca9">
+<Inception>2010-05-11T00:00:00+00:00</Inception>
+<Expiration>2010-05-25T23:59:59+00:00</Expiration>
+<Key keyIdentifier="302c312a302806035504031321566572695369676e20444e5353656320526f6f742054455354205a534b20312d33" keyTag="55138">
+<TTL>172800</TTL>
+<Flags>256</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAcbW99jHMHfU9Q53Zur26M0i0EMgt0O8tKr9UwE6uH4Yyu6uYRMHFVU6f7xZNssh0TAlxVr0I4qxak5/ux17bnMs1yYh5W9EMivaHnmWOoEms778QOjRVnqocMtOQRbObstfa4YaDhtbSRZKpdSzT9DIX5wKCxoXUad98XDdxLNJ</PublicKey>
+</Key>
+<Key keyIdentifier="KSK1" keyTag="05145">
+<TTL>172800</TTL>
+<Flags>385</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAeDRkrdHVmYr02azOXBd71VkutdjhDWyro+9IsGoFSN61RAgCmwQkw3MZR1zQZziReIdruh7zsKFzzYNV5O5xeRjrTktYM56R4dWucrmctQJdbJirDfKdNB57Pg7ZZAv2Lx+YkouC0+4E+cscYAbS7/p4P2F9kVqbpXjswpjzKojIQPzC5JpkOem8vjhRAVyvFfJ9fX5lM7XUzKMhvRCU8Kk/T4/n9tSZh6xLvu1X2u9U3dd9QAb0tK+hDal35rZkAs930JQKcvuRxbWv41SD2RajpQsHxYvD/1Kt3tZBBA6+n7YK6ePdNar0Fo5Az6Y1Uew+Gofmu9TLx4lUk6x4pM=</PublicKey>
+</Key>
+<Signature keyIdentifier="KSK1">
+<TTL>172800</TTL>
+<TypeCovered>DNSKEY</TypeCovered>
+<Algorithm>8</Algorithm>
+<Labels>0</Labels>
+<OriginalTTL>172800</OriginalTTL>
+<SignatureExpiration>2010-05-25T23:59:59+00:00</SignatureExpiration>
+<SignatureInception>2010-05-11T00:00:00+00:00</SignatureInception>
+<KeyTag>05145</KeyTag>
+<SignersName>.</SignersName>
+<SignatureData>Rd9cOnCgwTG3Gt3fUG4w+F8OLqWLWA9pKDk1XsCFNAY2xYASWaWpQeRSD6JgrcGGo6EOSJWbqNvK3HQkmwtcSEDgy+D7WZftSeti3KNEFN6v1fpXOQlVfOAssrc/ur/l4baJPs/zO5lkouhd2HO7BHcFf47xp0VC78TRBDjKZCHnXY78s9/1bvuwfcSoF396mSfM65WaK8iC2LXLrGiezzEZCfY7zDiIgS9d190bGh+T6nlMg5xluc1VlWA4Qt+7SHe1opYvH+4Z3YgyU/vZ9MgsnVCrzE2ePVvw70d3senN4GNSFfgzj/8NUtdjL/FXH73p8oeFoL7JzVFIK+sl9A==</SignatureData>
+</Signature>
+</ResponseBundle>
+<ResponseBundle id="adaec7d5-22e4-49f3-b3b0-29fca3e1c65d">
+<Inception>2010-05-21T00:00:00+00:00</Inception>
+<Expiration>2010-06-04T23:59:59+00:00</Expiration>
+<Key keyIdentifier="302c312a302806035504031321566572695369676e20444e5353656320526f6f742054455354205a534b20312d33" keyTag="55138">
+<TTL>172800</TTL>
+<Flags>256</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAcbW99jHMHfU9Q53Zur26M0i0EMgt0O8tKr9UwE6uH4Yyu6uYRMHFVU6f7xZNssh0TAlxVr0I4qxak5/ux17bnMs1yYh5W9EMivaHnmWOoEms778QOjRVnqocMtOQRbObstfa4YaDhtbSRZKpdSzT9DIX5wKCxoXUad98XDdxLNJ</PublicKey>
+</Key>
+<Key keyIdentifier="KSK1" keyTag="05145">
+<TTL>172800</TTL>
+<Flags>385</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAeDRkrdHVmYr02azOXBd71VkutdjhDWyro+9IsGoFSN61RAgCmwQkw3MZR1zQZziReIdruh7zsKFzzYNV5O5xeRjrTktYM56R4dWucrmctQJdbJirDfKdNB57Pg7ZZAv2Lx+YkouC0+4E+cscYAbS7/p4P2F9kVqbpXjswpjzKojIQPzC5JpkOem8vjhRAVyvFfJ9fX5lM7XUzKMhvRCU8Kk/T4/n9tSZh6xLvu1X2u9U3dd9QAb0tK+hDal35rZkAs930JQKcvuRxbWv41SD2RajpQsHxYvD/1Kt3tZBBA6+n7YK6ePdNar0Fo5Az6Y1Uew+Gofmu9TLx4lUk6x4pM=</PublicKey>
+</Key>
+<Signature keyIdentifier="KSK1">
+<TTL>172800</TTL>
+<TypeCovered>DNSKEY</TypeCovered>
+<Algorithm>8</Algorithm>
+<Labels>0</Labels>
+<OriginalTTL>172800</OriginalTTL>
+<SignatureExpiration>2010-06-04T23:59:59+00:00</SignatureExpiration>
+<SignatureInception>2010-05-21T00:00:00+00:00</SignatureInception>
+<KeyTag>05145</KeyTag>
+<SignersName>.</SignersName>
+<SignatureData>gWQb72oxzHrXRgUaBtihrJuYKkxx8uEl05ngyNAz+APYjVPrQtO/6tsL1lYKvEh8RJ4heYBU6NGtWY/Yd3jX8+nZFBxhMnSf0Gu5xAb3Cgpv3oWL6f1eMe2MbNolSV3FqNSBaBjwwTqYWlgdjAP4i9ck+L1DuEOSdqWpUBr60jDGki/q6xOUSTqY9T25+s22Icut5RXQLA8f1dPOAClYXhjguiBYauLJ3ACiLC5tx4C0AdVHFmXhtkqlxl2ghtXA3DekNKxHYqdi4iEWGAN/KszXTw8n8zguV1pkAcecRUH3G4ttUehOX/YvUuBmMJPmnFfXLAhYPS9pjTOXZriHIA==</SignatureData>
+</Signature>
+</ResponseBundle>
+<ResponseBundle id="3a1df84e-c800-4826-80e9-dcf0dd92a368">
+<Inception>2010-05-31T00:00:00+00:00</Inception>
+<Expiration>2010-06-14T23:59:59+00:00</Expiration>
+<Key keyIdentifier="302c312a302806035504031321566572695369676e20444e5353656320526f6f742054455354205a534b20312d33" keyTag="55138">
+<TTL>172800</TTL>
+<Flags>256</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAcbW99jHMHfU9Q53Zur26M0i0EMgt0O8tKr9UwE6uH4Yyu6uYRMHFVU6f7xZNssh0TAlxVr0I4qxak5/ux17bnMs1yYh5W9EMivaHnmWOoEms778QOjRVnqocMtOQRbObstfa4YaDhtbSRZKpdSzT9DIX5wKCxoXUad98XDdxLNJ</PublicKey>
+</Key>
+<Key keyIdentifier="KSK1" keyTag="05145">
+<TTL>172800</TTL>
+<Flags>385</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAeDRkrdHVmYr02azOXBd71VkutdjhDWyro+9IsGoFSN61RAgCmwQkw3MZR1zQZziReIdruh7zsKFzzYNV5O5xeRjrTktYM56R4dWucrmctQJdbJirDfKdNB57Pg7ZZAv2Lx+YkouC0+4E+cscYAbS7/p4P2F9kVqbpXjswpjzKojIQPzC5JpkOem8vjhRAVyvFfJ9fX5lM7XUzKMhvRCU8Kk/T4/n9tSZh6xLvu1X2u9U3dd9QAb0tK+hDal35rZkAs930JQKcvuRxbWv41SD2RajpQsHxYvD/1Kt3tZBBA6+n7YK6ePdNar0Fo5Az6Y1Uew+Gofmu9TLx4lUk6x4pM=</PublicKey>
+</Key>
+<Signature keyIdentifier="KSK1">
+<TTL>172800</TTL>
+<TypeCovered>DNSKEY</TypeCovered>
+<Algorithm>8</Algorithm>
+<Labels>0</Labels>
+<OriginalTTL>172800</OriginalTTL>
+<SignatureExpiration>2010-06-14T23:59:59+00:00</SignatureExpiration>
+<SignatureInception>2010-05-31T00:00:00+00:00</SignatureInception>
+<KeyTag>05145</KeyTag>
+<SignersName>.</SignersName>
+<SignatureData>ecW663WwuBBxXtSv6RK/iLKuBfYWVWMwmDAahOzs4MUc3j+x9tVeAik8jihDpypMtxvvbCzoMxfgGHA0DWL3+bfSqzs6/HznCbrrub6/dBM10y4LDyGu7y1Ss4PVFMYnf6B7RwSmVmEvnpzJCH/ZW92Dyg/XJYO+BPOP2i3EIrDIOIeFmr+ysMatOSAIsRqj7ppe6buBbA88zz2EDDbtympcnqxp1b+VrX4xvl9QcwydzpzSsM4RWdeQk6EJIuA+41aTMUdUBG5rW66tqH/ugcq6lNPaihaJyQrpcf+vdSAJp6/oVcMNK9jOOqhPmpBPcnfLxcHSzAqNX5AbDEpFMA==</SignatureData>
+</Signature>
+</ResponseBundle>
+<ResponseBundle id="25874fbf-e16c-45da-90d5-40e6e07b7d00">
+<Inception>2010-06-10T00:00:00+00:00</Inception>
+<Expiration>2010-06-24T23:59:59+00:00</Expiration>
+<Key keyIdentifier="302c312a302806035504031321566572695369676e20444e5353656320526f6f742054455354205a534b20312d33" keyTag="55138">
+<TTL>172800</TTL>
+<Flags>256</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAcbW99jHMHfU9Q53Zur26M0i0EMgt0O8tKr9UwE6uH4Yyu6uYRMHFVU6f7xZNssh0TAlxVr0I4qxak5/ux17bnMs1yYh5W9EMivaHnmWOoEms778QOjRVnqocMtOQRbObstfa4YaDhtbSRZKpdSzT9DIX5wKCxoXUad98XDdxLNJ</PublicKey>
+</Key>
+<Key keyIdentifier="KSK1" keyTag="05145">
+<TTL>172800</TTL>
+<Flags>385</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAeDRkrdHVmYr02azOXBd71VkutdjhDWyro+9IsGoFSN61RAgCmwQkw3MZR1zQZziReIdruh7zsKFzzYNV5O5xeRjrTktYM56R4dWucrmctQJdbJirDfKdNB57Pg7ZZAv2Lx+YkouC0+4E+cscYAbS7/p4P2F9kVqbpXjswpjzKojIQPzC5JpkOem8vjhRAVyvFfJ9fX5lM7XUzKMhvRCU8Kk/T4/n9tSZh6xLvu1X2u9U3dd9QAb0tK+hDal35rZkAs930JQKcvuRxbWv41SD2RajpQsHxYvD/1Kt3tZBBA6+n7YK6ePdNar0Fo5Az6Y1Uew+Gofmu9TLx4lUk6x4pM=</PublicKey>
+</Key>
+<Signature keyIdentifier="KSK1">
+<TTL>172800</TTL>
+<TypeCovered>DNSKEY</TypeCovered>
+<Algorithm>8</Algorithm>
+<Labels>0</Labels>
+<OriginalTTL>172800</OriginalTTL>
+<SignatureExpiration>2010-06-24T23:59:59+00:00</SignatureExpiration>
+<SignatureInception>2010-06-10T00:00:00+00:00</SignatureInception>
+<KeyTag>05145</KeyTag>
+<SignersName>.</SignersName>
+<SignatureData>i3O3cJTF9O7bb8hv2FfH68gaY7rXrPtOKx56YVcYhVZp29vI9gYnxz29axdRvKYDc63MyWTvWkz1cL8FwdapSuXmaACY2yzHQoJtvrsUsdCEXRIRWsmNG9FRUzKdzFr+6esU/5+sr9im6ZCYG4HshoY3yiYZaeEcaGZpElu7Rs3OdgapzzI/O37GpFL9UWcI55VNJqc9gR+jP3jynHMBPPy79QpwV6oW3/Csi/B9fuz3wJawg5pxWJIsWSlAmsqmeNxxV4JQNv4j4u8rTSaBpXuQ/YkY+bOFkoWhBLfmN0uwI4lsVTnPWMYsc5/QpAkcNSliAY3/WTJz+th//Ustjg==</SignatureData>
+</Signature>
+</ResponseBundle>
+<ResponseBundle id="a73702a2-e6cc-4934-80bb-9605046df56a">
+<Inception>2010-06-20T00:00:00+00:00</Inception>
+<Expiration>2010-07-05T23:59:59+00:00</Expiration>
+<Key keyIdentifier="302c312a302806035504031321566572695369676e20444e5353656320526f6f742054455354205a534b20312d34" keyTag="41248">
+<TTL>172800</TTL>
+<Flags>256</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAb1gcDhBlH/9MlgUxS0ik2dwY/JiBIpV+EhKZV7LccxNc6Qlj467QjHQ3Fgm2i2LE9w6LqPFDSng5qVq1OYFyTBt3DQppqDnAPriTwW5qIQNDNFv34yo63sAdBeU4G9tv7dzT5sPyAgmVh5HDCe+6XM2+Iel1+kUKCel8Icy19hR</PublicKey>
+</Key>
+<Key keyIdentifier="302c312a302806035504031321566572695369676e20444e5353656320526f6f742054455354205a534b20312d33" keyTag="55138">
+<TTL>172800</TTL>
+<Flags>256</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAcbW99jHMHfU9Q53Zur26M0i0EMgt0O8tKr9UwE6uH4Yyu6uYRMHFVU6f7xZNssh0TAlxVr0I4qxak5/ux17bnMs1yYh5W9EMivaHnmWOoEms778QOjRVnqocMtOQRbObstfa4YaDhtbSRZKpdSzT9DIX5wKCxoXUad98XDdxLNJ</PublicKey>
+</Key>
+<Key keyIdentifier="KSK1" keyTag="05145">
+<TTL>172800</TTL>
+<Flags>385</Flags>
+<Protocol>3</Protocol>
+<Algorithm>8</Algorithm>
+<PublicKey>AwEAAeDRkrdHVmYr02azOXBd71VkutdjhDWyro+9IsGoFSN61RAgCmwQkw3MZR1zQZziReIdruh7zsKFzzYNV5O5xeRjrTktYM56R4dWucrmctQJdbJirDfKdNB57Pg7ZZAv2Lx+YkouC0+4E+cscYAbS7/p4P2F9kVqbpXjswpjzKojIQPzC5JpkOem8vjhRAVyvFfJ9fX5lM7XUzKMhvRCU8Kk/T4/n9tSZh6xLvu1X2u9U3dd9QAb0tK+hDal35rZkAs930JQKcvuRxbWv41SD2RajpQsHxYvD/1Kt3tZBBA6+n7YK6ePdNar0Fo5Az6Y1Uew+Gofmu9TLx4lUk6x4pM=</PublicKey>
+</Key>
+<Signature keyIdentifier="KSK1">
+<TTL>172800</TTL>
+<TypeCovered>DNSKEY</TypeCovered>
+<Algorithm>8</Algorithm>
+<Labels>0</Labels>
+<OriginalTTL>172800</OriginalTTL>
+<SignatureExpiration>2010-07-05T23:59:59+00:00</SignatureExpiration>
+<SignatureInception>2010-06-20T00:00:00+00:00</SignatureInception>
+<KeyTag>05145</KeyTag>
+<SignersName>.</SignersName>
+<SignatureData>1z6CJnuWsa4u+kCkH2G5KqVg7Px4xH9qdc6XzZGfBQn68cakNqTK+rOd+fjXWNL4dXsqwCuGQ2C+Jo/LZsGEH9Bs3E9K6bQ5KJgTbLDMoGxQLsINPCm7KG2bQ5ZxNLN92NMwPE/2YVTQIYw2rjG2Ueb9bAWernPNdcVlMZuareFSFgumPUdDE6k2gXpJQFRe8IgaKRhz+hP/wPug2cDjjX2Q5wnUx7MnCPvZB1J7e4bz665ofhXOhYy2b/kLcEWjkKc+Ghc0gCISwH6F9hKlIOt5Dr3vPt7TWUKzyNF9ooWqEShtzyoQGk90Er37tt6Nyr1KURu0jJ2yaYXOE/Vknw==</SignatureData>
+</Signature>
+</ResponseBundle>
+</Response>
+</KSR>
